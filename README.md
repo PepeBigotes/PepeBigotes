@@ -1,7 +1,6 @@
-<img src="images/pepebigotes.svg" align="center"/>
+<img src="images/globe.gif" align="center"/>
+<img src="images/pepebigotes.gif" align="center"/>
 <img src="images/pepecover.png" align="center"/>
 
-<img src="images/aboutme.svg" align="left" height=200
-/>
-<img src="images/penguin.svg" align="right" height=200
-/>
+<img src="images/aboutme.gif" align="left" height=150/>
+<img src="images/penguin.gif" align="right" height=150/>
