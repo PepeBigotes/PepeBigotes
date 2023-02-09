@@ -1,4 +1,6 @@
-<img src="images/impepebigotes.svg" align="center"/>
+<img src="images/impepebigotes.svg" align="center" width=1270 height=150 object-fit=cover
+/>
+
 <a href="https://www.youtube.com/watch?v=2rYU25Fs4Pk&ab_channel=kxrreposts">
 <img src="images/penguin.gif" width=999999999999%/>
 <!--
