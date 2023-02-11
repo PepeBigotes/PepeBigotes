@@ -1,10 +1,10 @@
-<img src="images/impepebigotes.svg" align="center" width=1270 height=150 object-fit=cover
+<img src="images/impepebigotes.svg" align="center" width=1270 height=150 object-fit=none
 />
 
 <a href="https://www.youtube.com/watch?v=2rYU25Fs4Pk&ab_channel=kxrreposts">
 <img src="images/penguin.gif" width=999999999999%/>
 <!--
-I don't know any other way to make the pinguin fill all the screen width, accepting PR's tho.
+I don't know any other way to make the pinguin fill all the screen width that, accepting PR's tho.
 I also don't understand why this doesn't happend with the .svg, i guess it's because of the format.
 -->
 
