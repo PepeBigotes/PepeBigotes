@@ -1,4 +1,4 @@
-<img src="images/impepebigotes.svg" align="center" width=1270 height=150 object-fit=none
+<img src="images/impepebigotes-cropped.svg" align="center"
 />
 
 <a href="https://www.youtube.com/watch?v=2rYU25Fs4Pk&ab_channel=kxrreposts">
