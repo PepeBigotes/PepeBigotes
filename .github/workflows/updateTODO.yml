@@ -1,0 +1,43 @@
+name: Update TODO List
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_todo_list:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+        ref: main
+
+
+    - name: Generate TODO Table
+      uses: actions/python-action@v1
+      with:
+        entrypoint: python
+        args: >-
+          -c
+          "import csv
+           with open('todo_list.csv', 'r') as file:
+             reader = csv.reader(file)
+             with open('todo_list.md', 'w') as outfile:
+               outfile.write('Completed? | Task | Repository\n')
+               outfile.write('--- | --- | ---\n')
+               for row in reader:
+                 outfile.write('[{}]({}) | {} | {}\n'.format(row[1], row[2], row[0], row[1]))"
+                 
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "github-actions@github.com"
+        git config --local user.name "Github Actions"
+        git add todo_list.md
+        git commit -m "Automatically updated TODO list"
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
