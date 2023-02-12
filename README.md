@@ -8,16 +8,18 @@
 
 
 <h2 align="center"><b>☑️ Here is my current TODO list:</b></h2>
+<!-- TODO-IST:START -->
+<!-- TODO-IST:END -->
+
+<!---
+✔️
+❌
 <table align="center">
   <tr>
     <th><b>Complete?</b></th>
     <th><b>Task</b></th>
     <th><b>Repo</b></th>
   </tr>
-<!---
-✔️
-❌
---->
   <tr>
     <td align="center">✔️</td>
     <td>Create this TODO list</td>
@@ -35,6 +37,9 @@
   </tr>
 
 </table>
+
+--->
+
 
 <p></p>
 
