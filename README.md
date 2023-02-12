@@ -25,6 +25,11 @@
   </tr>
   <tr>
     <td align="center">❌</td>
+    <td>Maybe make this table update itself with some API</td>
+    <td><a href="https://github.com/PepeBigotes/PepeBigotes">/PepeBigotes</a></td>
+  </tr>
+  <tr>
+    <td align="center">❌</td>
     <td>Update Readme, delete scripts</td>
     <td><a href="https://github.com/PepeBigotes/improvedduckduino">/improvedduckduino</a></td>
   </tr>
