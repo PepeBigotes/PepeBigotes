@@ -7,12 +7,12 @@
 </div>
 
 
-<h2 align="center">☑️Here is my current TODO list</h2>
+<h2 align="center"><b>☑️ Here is my current TODO list:</b></h2>
 <table align="center">
   <tr>
-    <th>Completed?</th>
-    <th>Task</th>
-    <th>Repo</th>
+    <th><b>Complete?</b></th>
+    <th><b>Task</b></th>
+    <th><b>Repo</b></th>
   </tr>
 <!---
 ✔️
@@ -21,12 +21,12 @@
   <tr>
     <td align="center">✔️</td>
     <td>Create this TODO list</td>
-    <td>/PepeBigotes</td>
+    <td><a href="https://github.com/PepeBigotes/PepeBigotes">/PepeBigotes</a></td>
   </tr>
   <tr>
     <td align="center">❌</td>
     <td>Update Readme, delete scripts</td>
-    <td>/improvedduckduino</td>
+    <td><a href="https://github.com/PepeBigotes/improvedduckduino">/improvedduckduino</a></td>
   </tr>
 
 </table>
