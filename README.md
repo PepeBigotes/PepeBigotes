@@ -6,10 +6,11 @@
 </a>
 </div>
 
+# Todoist Tasks
 
-<h2 align="center"><b>☑️ Here is my current TODO list:</b></h2>
 <!-- TODO-IST:START -->
 <!-- TODO-IST:END -->
+
 
 <!---
 ✔️
