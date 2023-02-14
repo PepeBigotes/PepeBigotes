@@ -15,5 +15,5 @@ jobs:
       - uses: rxcod9/todoist-readme@master
         with:
           TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
-          TODOIST_LENGTH: 10
+          TODOIST_LENGTH: ${{ secrets.TODOIST_LENGTH }}
 
