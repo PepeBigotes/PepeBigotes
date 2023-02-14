@@ -1,10 +1,10 @@
-name: Update TODO list
+name: Todoist Readme
 
 on:
   workflow_dispatch:
   schedule:
     # Runs every minute
-    - cron: "* * * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   update-readme:
