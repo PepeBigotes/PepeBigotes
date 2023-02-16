@@ -5,8 +5,6 @@
 <img src="images/penguin.gif" width=40% alt="Penguin from the game 'Club Penguin' hittin some moves"/>
 </a>
 </div>
-
-
 <h2 align="center"><b>☑️ Here is my current TODO list:</b></h2>
 <table align="center">
   <tr>
@@ -33,11 +31,9 @@
     <td>Update Readme, delete scripts</td>
     <td><a href="https://github.com/PepeBigotes/improvedduckduino">/improvedduckduino</a></td>
   </tr>
-
 </table>
-
 <p></p>
-<img src"https://profile-counter.glitch.me/PepeBigotes/count.svg" />
 <div align="center">
+<img alt="Visitor count" src="https://profile-counter.glitch.me/PepeBigotes/count.svg"/>
 <img src="https://readme-typing-svg.demolab.com?font=Comic+Neue&duration=3500&pause=2500&color=00FF00&center=true&vCenter=true&width=435&lines=Thanks+for+visiting+my+profile!;Consider+checking+my+work+while+you+are+here;Have+a+nice+day!" alt="Typing SVG" />
 </div>
