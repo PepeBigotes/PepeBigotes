@@ -37,7 +37,7 @@
 </table>
 
 <p></p>
-
+<img src"https://profile-counter.glitch.me/PepeBigotes/count.svg" />
 <div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Comic+Neue&duration=3500&pause=2500&color=00FF00&center=true&vCenter=true&width=435&lines=Thanks+for+visiting+my+profile!;Consider+checking+my+work+while+you+are+here;Have+a+nice+day!" alt="Typing SVG" />
 </div>
