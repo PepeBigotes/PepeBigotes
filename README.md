@@ -1,9 +1,7 @@
 <img src="images/impepebigotes-cropped.svg" align="center"
 />
 <div align=center>
-<a href="https://www.youtube.com/watch?v=2rYU25Fs4Pk&ab_channel=kxrreposts">
 <img src="images/penguin.gif" width=40% alt="Penguin from the game 'Club Penguin' hittin some moves"/>
-</a>
 </div>
 <h2 align="center"><b>☑️ Here is my current TODO list:</b></h2>
 <table align="center">
