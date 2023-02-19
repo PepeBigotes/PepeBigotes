@@ -3,7 +3,13 @@
 <div align=center>
 <img src="images/penguin.gif" width=40% alt="Penguin from the game 'Club Penguin' hittin some moves"/>
 </div>
-<h2 align="center"><b>☑️ Here is my current TODO list:</b></h2>
+<div align="center">
+<img alt="Dev joke card" src="https://readme-jokes.vercel.app/api?hideBorder&textColor=%23ff0000&bgColor=%2300ff00&qColor=%23ff0000&aColor=%230000ff"/>
+</div>
+<details><summary align="center">
+<b>Click here and find out what I'm up to</b>
+
+</summary>
 <table align="center">
   <tr>
     <th><b>Complete?</b></th>
@@ -29,7 +35,7 @@
     <td>Update Readme, delete scripts</td>
     <td><a href="https://github.com/PepeBigotes/improvedduckduino">/improvedduckduino</a></td>
   </tr>
-</table>
+</table></details>
 <p></p>
 <div align="center">
 <img alt="Visitor count" src="https://profile-counter.glitch.me/PepeBigotes/count.svg"/>
