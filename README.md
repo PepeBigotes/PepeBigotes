@@ -12,21 +12,27 @@
 </summary>
 <table align="center">
   <tr>
-    <th><b>Complete?</b></th>
+    <th><b>Progress</b></th>
     <th><b>Task</b></th>
     <th><b>Repo</b></th>
   </tr>
 <!---
-✔️
-❌
+✔️ Done
+📝 In progress
+❌ Not started
 --->
   <tr>
     <td align="center">✔️</td>
-    <td>Create this TODO list</td>
+    <td>Open readme improvement PR</td>
+    <td><a href="https://github.com/ABSphreak/readme-jokes">/readme-jokes</a></td>
+  </tr>
+  <tr>
+    <td align="center">📝</td>
+    <td>Improve this README</td>
     <td><a href="https://github.com/PepeBigotes/PepeBigotes">/PepeBigotes</a></td>
   </tr>
   <tr>
-    <td align="center">❌</td>
+    <td align="center">📝</td>
     <td>Maybe make this table update itself with some API</td>
     <td><a href="https://github.com/PepeBigotes/PepeBigotes">/PepeBigotes</a></td>
   </tr>
