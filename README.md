@@ -5,12 +5,12 @@
 </div>
 
 <div align="center">
-<img alt="Epic joke" src="images/mostepicjoke.gif"/>
+<img alt="Epic joke" width=70% src="images/mostepicjoke.gif"/>
 <img alt="Dev joke card" src="https://readme-jokes.vercel.app/api?hideBorder&textColor=%23ff0000&bgColor=%2300ff00&qColor=%23ff0000&aColor=%230000ff"/>
 </div>
 
 <details><summary align="center">
-<img alt="click here to see what I'm up to" src="images/whatimupto.gif">
+<img alt="click here to see what I'm up to" width=80% src="images/whatimupto.gif">
 
 </summary>
 <table align="center">
