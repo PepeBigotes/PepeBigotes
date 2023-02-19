@@ -9,12 +9,12 @@
 <img alt="Dev joke card" src="https://readme-jokes.vercel.app/api?hideBorder&textColor=%23ff0000&bgColor=%2300ff00&qColor=%23ff0000&aColor=%230000ff"/>
 </div>
 
-<details><summary align="center">
-<img alt="click here to see what I'm up to" width=80% src="images/whatimupto.gif">
+<details><summary align="center"><a href="#My current TODO list">
+<img alt="click here to see what I'm up to" width=80% src="images/whatimupto.gif"></a>
 
 </summary>
 
-# My current TODO list
+## My current TODO list
 
 <table align="center">
   <tr>
