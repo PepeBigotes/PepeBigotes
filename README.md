@@ -7,7 +7,7 @@
 <img alt="Dev joke card" src="https://readme-jokes.vercel.app/api?hideBorder&textColor=%23ff0000&bgColor=%2300ff00&qColor=%23ff0000&aColor=%230000ff"/>
 </div>
 <details><summary align="center">
-<b>Click here and find out what I'm up to</b>
+<img src="images/whatimupto.gif">
 
 </summary>
 <table align="center">
