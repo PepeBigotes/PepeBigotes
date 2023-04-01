@@ -5,10 +5,6 @@
 </div>
 
 <div align="center">
-<img alt="Epic joke" width=70% src="images/mostepicjoke.gif">
-<img alt="Dev joke card" src="https://readme-jokes.vercel.app/api?hideBorder&textColor=%23ff0000&bgColor=%2300ff00&qColor=%23ff0000&aColor=%230000ff">
-</div>
-
 <details><summary align="center"><h2 align="center"><b>
 Click here & find out what I'm up to</b></h2>
 </summary>
@@ -49,6 +45,8 @@ Click here & find out what I'm up to</b></h2>
 <div align="center">
 <img alt="Visitor count" src="https://profile-counter.glitch.me/PepeBigotes/count.svg"/>
 </div>
+</div>
+
 <div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Comic+Neue&duration=3500&pause=2500&color=00FF00&center=true&vCenter=true&width=435&lines=Thanks+for+visiting+my+profile!;Consider+checking+my+work+while+you+are+here;Have+a+nice+day!" alt="Typing SVG" />
 </div>
