@@ -5,15 +5,15 @@
 </div>
 
 <div align="center">
-<img alt="Epic joke" width=70% src="images/mostepicjoke.gif" style="background-color:#00ff"/>
-<img alt="Dev joke card" src="https://readme-jokes.vercel.app/api?hideBorder&textColor=%23ff0000&bgColor=%2300ff00&qColor=%23ff0000&aColor=%230000ff"/>
+<img alt="Epic joke" width=70% src="images/mostepicjoke.gif">
+<img alt="Dev joke card" src="https://readme-jokes.vercel.app/api?hideBorder&textColor=%23ff0000&bgColor=%2300ff00&qColor=%23ff0000&aColor=%230000ff">
 </div>
 
-<details><summary align="center"><h2 align="center" style="color:red;background-color:#00ff"><b>
+<details><summary align="center"><h2 align="center"><b>
 Click here & find out what I'm up to</b></h2>
 </summary>
 
-<table align="center" style="backgorund-color:#00ff00">
+<table align="center">
   <tr>
     <th><b>Progress</b></th>
     <th><b>Task</b></th>
