@@ -1,0 +1,13 @@
+<TASK>
+!DONE
+Create a todo-list creator
+https://github.com/PepeBigotes/PepeBigotes
+/PepeBigotes
+</TASK>
+
+<TASK>
+!INPROG
+Add more link lists
+https://github.com/PepeBigotes/chrome-custom-newtab
+/chrome-custom-newtab
+</TASK>

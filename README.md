@@ -8,39 +8,34 @@
 <details><summary align="center"><h2 align="center"><b>
 Click here & find out what I'm up to</b></h2>
 </summary>
-
+<!--TODOLIST-->
 <table align="center">
   <tr>
     <th><b>Progress</b></th>
     <th><b>Task</b></th>
     <th><b>Repo</b></th>
   </tr>
-<!---
-✔️ Done
-📝 In progress
-❌ Not started
---->
-  <tr>
-    <td align="center">✔️</td>
-    <td>Open readme improvement PR</td>
-    <td><a href="https://github.com/ABSphreak/readme-jokes">/readme-jokes</a></td>
-  </tr>
   <tr>
     <td align="center">📝</td>
     <td>Improve this README</td>
-    <td><a href="https://github.com/PepeBigotes/PepeBigotes">/PepeBigotes</a></td>
+    <td><a href="https://github.com/PepeBigotes/PepeBigotes">
+    /PepeBigotes</a></td>
   </tr>
   <tr>
-    <td align="center">📝</td>
+    <td align="center"></td>
     <td>Maybe make this table update itself with some API</td>
-    <td><a href="https://github.com/PepeBigotes/PepeBigotes">/PepeBigotes</a></td>
+    <td><a href="https://github.com/PepeBigotes/PepeBigotes">
+    /PepeBigotes</a></td>
   </tr>
   <tr>
     <td align="center">❌</td>
     <td>Update Readme, delete scripts</td>
-    <td><a href="https://github.com/PepeBigotes/improvedduckduino">/improvedduckduino</a></td>
+    <td><a href="https://github.com/PepeBigotes/improvedduckduino">
+    /improvedduckduino</a></td>
   </tr>
-</table></details>
+</table>
+<!--/TODOLIST-->
+</details>
 <p></p>
 <div align="center">
 <img alt="Visitor count" src="https://profile-counter.glitch.me/PepeBigotes/count.svg"/>
