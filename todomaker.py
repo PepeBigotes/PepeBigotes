@@ -3,11 +3,33 @@
 #This script transfers that format to the markdown file.
 #Pepe's TodoList Language maybe?
 
-#=PART 0: Imports and variables
+#=PART 0: Imports, defs and file values
 import time
 
 readme = "README.md"
 todolist = "todolist.txt"
+
+def plainlist(input, prefix = "", suffix = ""):
+    print(f"Plainlist started\n-prefix: '{prefix}'\n-suffix: '{suffix}'")
+    cache_list = input
+    input = []
+    print("list cached")
+    for sublist in cache_list:
+        print(f"Sublist detected: {sublist}")
+        if prefix != "":
+            input.append(prefix)
+        if isinstance(sublist, list):
+            for string in sublist:
+                if isinstance(string, str):
+                    input.append(string)
+                    print(f"-appended string: {string}")
+        elif isinstance(sublist, str):
+            input.append(sublist)
+            print(f"-appended sublist: {sublist}")
+        else:
+            print("-ERROR appending, not a list nor string")
+        if suffix != "":
+            input.append(suffix)
 
 #=PART 1: Detect and delete current TodoList from .md
 start_keyword = "<!--TODOLIST-->"
@@ -32,7 +54,7 @@ if start_index is not None and end_index is not None:
     lines_deleted = end_index - start_index -1
     if lines_deleted <= 0:
         print("No lines were deleted")
-    else:         
+    else:
         del lines[start_index + 1 : end_index]
         with open(readme, "w", encoding='utf-8') as file:
             file.writelines(lines)
@@ -55,6 +77,9 @@ end_keyword = '</TASK>'
 tasks = []
 task_content = []
 
+start_index = None
+end_index = None
+
 print(f"Stripping values from {todolist}...")
 with open(todolist, 'r', encoding='utf-8') as file:
     for line in file:
@@ -73,11 +98,11 @@ if tasks:
         print(line)
 else:
     if start_index is not None:
-        print(f"No {end_keyword} in {readme}")
+        print(f"No {end_keyword} in {todolist}")
     elif end_keyword is not None:
-        print(f"No {start_keyword} in {readme}")
+        print(f"No {start_keyword} in {todolist}")
     else:
-        print(f"No {start_keyword} nor {end_keyword} in {readme}")
+        print(f"No {start_keyword} nor {end_keyword} in {todolist}")
         
     print("Check your syntax, bozo")
     
@@ -86,18 +111,19 @@ print()
 if len(tasks) > 0:
     print(f"Transforming {len(tasks)} tasks...")
     for task in range(0, len(tasks)):
-        print(f"TASK {task}:")
-        tasks[task][0] = f'<td align="center">{tasks[task][0]}</td>\n'
+        print(f"#TASK {task}:")
         print(tasks[task][0])
+        tasks[task][0] = f'<td align="center">{tasks[task][0]}</td>\n'
         
-        tasks[task][1] = f'<td>{tasks[task][1]}</td>\n'
         print(tasks[task][1])
+        tasks[task][1] = f'<td>{tasks[task][1]}</td>\n'
         
-        tasks[task][2] = f'<td><a href="{tasks[task][2]}">\n'
         print(tasks[task][2])
+        tasks[task][2] = f'<td><a href="{tasks[task][2]}">\n'
         
-        tasks[task][3] = f'{tasks[task][3]}"</a></td>\n'
         print(tasks[task][3])
+        tasks[task][3] = f'{tasks[task][3]}"</a></td>\n'
+        print()
 else:
     print(f"No tasks detected in {todolist}")
 
@@ -112,20 +138,37 @@ prefix = [ \
     "<th><b>Repo</b></th>\n", \
     "</tr>\n", \
 ]
-sufix = ["</table>"]
+sufix = ["</table>\n"]
+
+plainlist(tasks, "<tr>\n", "</tr>\n")
+plainlist(tasks)
 
 final_table = prefix + tasks + sufix
+plainlist(final_table)
 
-for i in range(len(final_table)):
-    final_table[i] = [line + "\n" for line in final_table[i]]
-    
-lines.insert(start_index + 1, final_table)
+start_index = -1
+for i, line in enumerate(lines):
+    if "<!--TODOLIST-->" in line:
+        start_index = i
+        print(f"START INDEX: {start_index}")
+        break
 
-for i, element in enumerate(final_table):
-    lines = [str(line) for line in lines]
-    file.write("".join(lines))
+if start_index == -1:
+    print("ERROR: no TODOLIST detected in lines (readme.md)")
+
+lines[start_index + 1 : start_index + 1] = final_table
+
+plainlist(lines)
+
+print("LINES: ")
+print(lines)
 
 with open(readme, 'w', encoding='utf-8') as file:
-    file.write("".join(lines))
-    
+    for line in lines:
+        if isinstance(line , list):
+            for i in line:
+                file.write(i)
+        else:   
+            file.write(line)
+
 print("SCRIPT OVER!")

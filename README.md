@@ -1,5 +1,4 @@
-<img src="images/impepebigotes-cropped.svg" align="center"
-/>
+<img src="images/impepebigotes-cropped.svg" align="center"/>
 <div align=center>
 <img src="images/penguin.gif" width=40% alt="Penguin from the game 'Club Penguin' hittin some moves"/>
 </div>
@@ -9,30 +8,20 @@
 Click here & find out what I'm up to</b></h2>
 </summary>
 <!--TODOLIST-->
-<table align="center">
-  <tr>
-    <th><b>Progress</b></th>
-    <th><b>Task</b></th>
-    <th><b>Repo</b></th>
-  </tr>
-  <tr>
-    <td align="center">📝</td>
-    <td>Improve this README</td>
-    <td><a href="https://github.com/PepeBigotes/PepeBigotes">
-    /PepeBigotes</a></td>
-  </tr>
-  <tr>
-    <td align="center"></td>
-    <td>Maybe make this table update itself with some API</td>
-    <td><a href="https://github.com/PepeBigotes/PepeBigotes">
-    /PepeBigotes</a></td>
-  </tr>
-  <tr>
-    <td align="center">❌</td>
-    <td>Update Readme, delete scripts</td>
-    <td><a href="https://github.com/PepeBigotes/improvedduckduino">
-    /improvedduckduino</a></td>
-  </tr>
+<table align='center'>
+<tr>
+<th><b>Progress</b></th>
+<th><b>Task</b></th>
+<th><b>Repo</b></th>
+</tr>
+<td align="center">!DONE</td>
+<td>Create a todo-list creator</td>
+<td><a href="https://github.com/PepeBigotes/PepeBigotes">
+/PepeBigotes"</a></td>
+<td align="center">!INPROG</td>
+<td>Add more link lists</td>
+<td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
+/chrome-custom-newtab"</a></td>
 </table>
 <!--/TODOLIST-->
 </details>
