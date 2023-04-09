@@ -14,14 +14,18 @@ Click here & find out what I'm up to</b></h2>
 <th><b>Task</b></th>
 <th><b>Repo</b></th>
 </tr>
+<tr>
 <td align="center">!DONE</td>
 <td>Create a todo-list creator</td>
 <td><a href="https://github.com/PepeBigotes/PepeBigotes">
 /PepeBigotes"</a></td>
+</tr>
+<tr>
 <td align="center">!INPROG</td>
 <td>Add more link lists</td>
 <td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
 /chrome-custom-newtab"</a></td>
+</tr>
 </table>
 <!--/TODOLIST-->
 </details>

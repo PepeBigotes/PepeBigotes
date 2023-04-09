@@ -9,15 +9,13 @@ import time
 readme = "README.md"
 todolist = "todolist.txt"
 
-def plainlist(input, prefix = "", suffix = ""):
-    print(f"Plainlist started\n-prefix: '{prefix}'\n-suffix: '{suffix}'")
+def plainlist(input):
+    print("Plainlist started")
     cache_list = input
     input = []
     print("list cached")
     for sublist in cache_list:
         print(f"Sublist detected: {sublist}")
-        if prefix != "":
-            input.append(prefix)
         if isinstance(sublist, list):
             for string in sublist:
                 if isinstance(string, str):
@@ -28,8 +26,6 @@ def plainlist(input, prefix = "", suffix = ""):
             print(f"-appended sublist: {sublist}")
         else:
             print("-ERROR appending, not a list nor string")
-        if suffix != "":
-            input.append(suffix)
 
 #=PART 1: Detect and delete current TodoList from .md
 start_keyword = "<!--TODOLIST-->"
@@ -113,7 +109,7 @@ if len(tasks) > 0:
     for task in range(0, len(tasks)):
         print(f"#TASK {task}:")
         print(tasks[task][0])
-        tasks[task][0] = f'<td align="center">{tasks[task][0]}</td>\n'
+        tasks[task][0] = f'<tr>\n<td align="center">{tasks[task][0]}</td>\n'
         
         print(tasks[task][1])
         tasks[task][1] = f'<td>{tasks[task][1]}</td>\n'
@@ -122,8 +118,9 @@ if len(tasks) > 0:
         tasks[task][2] = f'<td><a href="{tasks[task][2]}">\n'
         
         print(tasks[task][3])
-        tasks[task][3] = f'{tasks[task][3]}"</a></td>\n'
+        tasks[task][3] = f'{tasks[task][3]}"</a></td>\n</tr>\n'
         print()
+        
 else:
     print(f"No tasks detected in {todolist}")
 
@@ -140,7 +137,7 @@ prefix = [ \
 ]
 sufix = ["</table>\n"]
 
-plainlist(tasks, "<tr>\n", "</tr>\n")
+
 plainlist(tasks)
 
 final_table = prefix + tasks + sufix
