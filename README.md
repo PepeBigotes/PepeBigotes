@@ -15,16 +15,34 @@ Click here & find out what I'm up to</b></h2>
 <th><b>Repo</b></th>
 </tr>
 <tr>
-<td align="center">!DONE</td>
-<td>Create a todo-list creator</td>
+<td align="center">✔️</td>
+<td>Create a todomaker script</td>
 <td><a href="https://github.com/PepeBigotes/PepeBigotes">
 /PepeBigotes"</a></td>
 </tr>
 <tr>
-<td align="center">!INPROG</td>
+<td align="center">❌</td>
 <td>Add more link lists</td>
 <td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
 /chrome-custom-newtab"</a></td>
+</tr>
+<tr>
+<td align="center">❌</td>
+<td>Add wallpapers images list</td>
+<td><a href="https://github.com/PepeBigotes/random-image">
+/random-image"</a></td>
+</tr>
+<tr>
+<td align="center">❌</td>
+<td>Fix image sources</td>
+<td><a href="https://github.com/PepeBigotes/random-image">
+/random-image"</a></td>
+</tr>
+<tr>
+<td align="center">❌</td>
+<td>Clean up the repo</td>
+<td><a href="https://github.com/PepeBigotes/improvedduckduino">
+/improvedduckduino"</a></td>
 </tr>
 </table>
 <!--/TODOLIST-->
