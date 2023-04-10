@@ -125,7 +125,7 @@ if len(tasks) > 0:
         tasks[task][2] = f'<td><a href="{tasks[task][2]}">\n'
         
         print(tasks[task][3])
-        tasks[task][3] = f'{tasks[task][3]}"</a></td>\n</tr>\n'
+        tasks[task][3] = f'{tasks[task][3]}</a></td>\n</tr>\n'
         print()
         
 else:
