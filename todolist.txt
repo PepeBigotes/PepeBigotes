@@ -1,8 +1,15 @@
 <TASK>
 !DONE
-Create a todomaker script
-https://github.com/PepeBigotes/PepeBigotes
-/PepeBigotes
+Add wallpapers images list
+https://github.com/PepeBigotes/random-image
+/random-image
+</TASK>
+
+<TASK>
+!DONE
+Fix image sources
+https://github.com/PepeBigotes/random-image
+/random-image
 </TASK>
 
 <TASK>
@@ -12,19 +19,6 @@ https://github.com/PepeBigotes/chrome-custom-newtab
 /chrome-custom-newtab
 </TASK>
 
-<TASK>
-!NOPROG
-Add wallpapers images list
-https://github.com/PepeBigotes/random-image
-/random-image
-</TASK>
-
-<TASK>
-!NOPROG
-Fix image sources
-https://github.com/PepeBigotes/random-image
-/random-image
-</TASK>
 
 <TASK>
 !NOPROG

@@ -16,27 +16,21 @@ Click here & find out what I'm up to</b></h2>
 </tr>
 <tr>
 <td align="center">✔️</td>
-<td>Create a todomaker script</td>
-<td><a href="https://github.com/PepeBigotes/PepeBigotes">
-/PepeBigotes"</a></td>
+<td>Add wallpapers images list</td>
+<td><a href="https://github.com/PepeBigotes/random-image">
+/random-image"</a></td>
+</tr>
+<tr>
+<td align="center">✔️</td>
+<td>Fix image sources</td>
+<td><a href="https://github.com/PepeBigotes/random-image">
+/random-image"</a></td>
 </tr>
 <tr>
 <td align="center">❌</td>
 <td>Add more link lists</td>
 <td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
 /chrome-custom-newtab"</a></td>
-</tr>
-<tr>
-<td align="center">❌</td>
-<td>Add wallpapers images list</td>
-<td><a href="https://github.com/PepeBigotes/random-image">
-/random-image"</a></td>
-</tr>
-<tr>
-<td align="center">❌</td>
-<td>Fix image sources</td>
-<td><a href="https://github.com/PepeBigotes/random-image">
-/random-image"</a></td>
 </tr>
 <tr>
 <td align="center">❌</td>

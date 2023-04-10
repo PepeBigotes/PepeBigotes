@@ -5,28 +5,35 @@
 
 #=PART 0: Imports, defs and file values
 import time
+import inspect
 
 readme = "README.md"
 todolist = "todolist.txt"
 
+def get_var_name(input):
+    for name, value in locals().items():
+        if value is input:
+            return name
+    return None
+
+
 def plainlist(input):
-    print("Plainlist started")
+    
+    variables = inspect.currentframe().f_back.f_locals.items()
+    var_name = [var_name for var_name, var_val in variables if var_val is input][0]
+    print(f"Plainlisting '{var_name}'...")
     cache_list = input
     input = []
-    print("list cached")
     for sublist in cache_list:
-        print(f"Sublist detected: {sublist}")
         if isinstance(sublist, list):
             for string in sublist:
                 if isinstance(string, str):
                     input.append(string)
-                    print(f"-appended string: {string}")
         elif isinstance(sublist, str):
             input.append(sublist)
-            print(f"-appended sublist: {sublist}")
         else:
             print("-ERROR appending, not a list nor string")
-
+            
 #=PART 1: Detect and delete current TodoList from .md
 start_keyword = "<!--TODOLIST-->"
 end_keyword = "<!--/TODOLIST-->"
@@ -107,7 +114,7 @@ print()
 if len(tasks) > 0:
     print(f"Transforming {len(tasks)} tasks...")
     for task in range(0, len(tasks)):
-        print(f"#TASK {task}:")
+        print(f"# TASK {task}:")
         print(tasks[task][0])
         tasks[task][0] = f'<tr>\n<td align="center">{tasks[task][0]}</td>\n'
         
@@ -156,9 +163,6 @@ if start_index == -1:
 lines[start_index + 1 : start_index + 1] = final_table
 
 plainlist(lines)
-
-print("LINES: ")
-print(lines)
 
 with open(readme, 'w', encoding='utf-8') as file:
     for line in lines:
