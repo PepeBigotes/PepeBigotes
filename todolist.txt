@@ -13,16 +13,29 @@ https://github.com/PepeBigotes/random-image
 </TASK>
 
 <TASK>
-!NOPROG
+!DONE
+Clean up the repo
+https://github.com/PepeBigotes/improvedduckduino
+/improvedduckduino
+</TASK>
+
+<TASK>
+!INPROG
 Add more link lists
 https://github.com/PepeBigotes/chrome-custom-newtab
 /chrome-custom-newtab
 </TASK>
 
+<TASK>
+!NOPROG
+Experimenting with python
+https://github.com/PepeBigotes/python-stuff
+/python-stuff
+</TASK>
 
 <TASK>
 !NOPROG
-Clean up the repo
-https://github.com/PepeBigotes/improvedduckduino
-/improvedduckduino
+Create console logs and scripts for testing.
+https://github.com/PepeBigotes/random-image
+/random-image
 </TASK>
