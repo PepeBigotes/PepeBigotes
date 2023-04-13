@@ -16,18 +16,6 @@ Click here & find out what I'm up to</b></h2>
 </tr>
 <tr>
 <td align="center">✔️</td>
-<td>Add wallpapers images list</td>
-<td><a href="https://github.com/PepeBigotes/random-image">
-/random-image</a></td>
-</tr>
-<tr>
-<td align="center">✔️</td>
-<td>Fix image sources</td>
-<td><a href="https://github.com/PepeBigotes/random-image">
-/random-image</a></td>
-</tr>
-<tr>
-<td align="center">✔️</td>
 <td>Clean up the repo</td>
 <td><a href="https://github.com/PepeBigotes/improvedduckduino">
 /improvedduckduino</a></td>
@@ -39,8 +27,8 @@ Click here & find out what I'm up to</b></h2>
 /chrome-custom-newtab</a></td>
 </tr>
 <tr>
-<td align="center">❌</td>
-<td>Experimenting with python</td>
+<td align="center">📝</td>
+<td>Developing python-fetch.py</td>
 <td><a href="https://github.com/PepeBigotes/python-stuff">
 /python-stuff</a></td>
 </tr>

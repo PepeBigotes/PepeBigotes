@@ -1,16 +1,3 @@
-<TASK>
-!DONE
-Add wallpapers images list
-https://github.com/PepeBigotes/random-image
-/random-image
-</TASK>
-
-<TASK>
-!DONE
-Fix image sources
-https://github.com/PepeBigotes/random-image
-/random-image
-</TASK>
 
 <TASK>
 !DONE
@@ -27,8 +14,8 @@ https://github.com/PepeBigotes/chrome-custom-newtab
 </TASK>
 
 <TASK>
-!NOPROG
-Experimenting with python
+!INPROG
+Developing python-fetch.py
 https://github.com/PepeBigotes/python-stuff
 /python-stuff
 </TASK>
