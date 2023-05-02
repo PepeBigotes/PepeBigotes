@@ -15,14 +15,14 @@ https://github.com/PepeBigotes/chrome-custom-newtab
 
 <TASK>
 !INPROG
-Developing python-fetch.py
-https://github.com/PepeBigotes/python-stuff
-/python-stuff
+Create console logs and scripts for testing.
+https://github.com/PepeBigotes/random-image
+/random-image
 </TASK>
 
 <TASK>
 !NOPROG
-Create console logs and scripts for testing.
-https://github.com/PepeBigotes/random-image
-/random-image
+Developing python-fetch.py
+https://github.com/PepeBigotes/python-stuff
+/python-stuff
 </TASK>

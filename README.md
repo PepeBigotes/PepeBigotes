@@ -28,15 +28,15 @@ Click here & find out what I'm up to</b></h2>
 </tr>
 <tr>
 <td align="center">📝</td>
-<td>Developing python-fetch.py</td>
-<td><a href="https://github.com/PepeBigotes/python-stuff">
-/python-stuff</a></td>
-</tr>
-<tr>
-<td align="center">❌</td>
 <td>Create console logs and scripts for testing.</td>
 <td><a href="https://github.com/PepeBigotes/random-image">
 /random-image</a></td>
+</tr>
+<tr>
+<td align="center">❌</td>
+<td>Developing python-fetch.py</td>
+<td><a href="https://github.com/PepeBigotes/python-stuff">
+/python-stuff</a></td>
 </tr>
 </table>
 <!--/TODOLIST-->
