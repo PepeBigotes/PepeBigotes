@@ -1,3 +1,9 @@
+<TASK>
+!DONE
+Create console logs and scripts for testing.
+https://github.com/PepeBigotes/random-image
+/random-image
+</TASK>
 
 <TASK>
 !DONE
@@ -8,16 +14,9 @@ https://github.com/PepeBigotes/improvedduckduino
 
 <TASK>
 !INPROG
-Add more link lists
+Add more links and features
 https://github.com/PepeBigotes/chrome-custom-newtab
 /chrome-custom-newtab
-</TASK>
-
-<TASK>
-!INPROG
-Create console logs and scripts for testing.
-https://github.com/PepeBigotes/random-image
-/random-image
 </TASK>
 
 <TASK>

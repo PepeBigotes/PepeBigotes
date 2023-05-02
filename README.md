@@ -16,21 +16,21 @@ Click here & find out what I'm up to</b></h2>
 </tr>
 <tr>
 <td align="center">✔️</td>
+<td>Create console logs and scripts for testing.</td>
+<td><a href="https://github.com/PepeBigotes/random-image">
+/random-image</a></td>
+</tr>
+<tr>
+<td align="center">✔️</td>
 <td>Clean up the repo</td>
 <td><a href="https://github.com/PepeBigotes/improvedduckduino">
 /improvedduckduino</a></td>
 </tr>
 <tr>
 <td align="center">📝</td>
-<td>Add more link lists</td>
+<td>Add more links and features</td>
 <td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
 /chrome-custom-newtab</a></td>
-</tr>
-<tr>
-<td align="center">📝</td>
-<td>Create console logs and scripts for testing.</td>
-<td><a href="https://github.com/PepeBigotes/random-image">
-/random-image</a></td>
 </tr>
 <tr>
 <td align="center">❌</td>
