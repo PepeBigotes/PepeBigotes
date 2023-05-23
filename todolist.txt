@@ -1,22 +1,22 @@
 <TASK>
-!DONE
-Create console logs and scripts for testing.
-https://github.com/PepeBigotes/random-image
-/random-image
-</TASK>
-
-<TASK>
-!DONE
-Clean up the repo
-https://github.com/PepeBigotes/improvedduckduino
-/improvedduckduino
-</TASK>
-
-<TASK>
 !INPROG
 Add more links and features
 https://github.com/PepeBigotes/chrome-custom-newtab
 /chrome-custom-newtab
+</TASK>
+
+<TASK>
+!NOPROG
+Cleaning up the code, making it more readable and optimizing it
+https://github.com/PepeBigotes/PepeBigotes
+/PepeBigotes
+</TASK>
+
+<TASK>
+!NOPROG
+Move duckduino.h to the main directory
+https://github.com/PepeBigotes/improvedduckduino
+/improvedduckduino
 </TASK>
 
 <TASK>

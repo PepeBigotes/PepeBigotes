@@ -15,22 +15,22 @@ Click here & find out what I'm up to</b></h2>
 <th><b>Repo</b></th>
 </tr>
 <tr>
-<td align="center">✔️</td>
-<td>Create console logs and scripts for testing.</td>
-<td><a href="https://github.com/PepeBigotes/random-image">
-/random-image</a></td>
-</tr>
-<tr>
-<td align="center">✔️</td>
-<td>Clean up the repo</td>
-<td><a href="https://github.com/PepeBigotes/improvedduckduino">
-/improvedduckduino</a></td>
-</tr>
-<tr>
 <td align="center">📝</td>
 <td>Add more links and features</td>
 <td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
 /chrome-custom-newtab</a></td>
+</tr>
+<tr>
+<td align="center">❌</td>
+<td>Cleaning up the code, making it more readable and optimizing it</td>
+<td><a href="https://github.com/PepeBigotes/PepeBigotes">
+/PepeBigotes</a></td>
+</tr>
+<tr>
+<td align="center">❌</td>
+<td>Move duckduino.h to the main directory</td>
+<td><a href="https://github.com/PepeBigotes/improvedduckduino">
+/improvedduckduino</a></td>
 </tr>
 <tr>
 <td align="center">❌</td>
