@@ -6,10 +6,17 @@ https://github.com/PepeBigotes/chrome-custom-newtab
 </TASK>
 
 <TASK>
-!NOPROG
+!INPROG
 Cleaning up the code, making it more readable and optimizing it
 https://github.com/PepeBigotes/PepeBigotes
 /PepeBigotes
+</TASK>
+
+<TASK>
+!INPROG
+Developing python-fetch.py
+https://github.com/PepeBigotes/python-stuff
+/python-stuff
 </TASK>
 
 <TASK>
@@ -17,11 +24,4 @@ https://github.com/PepeBigotes/PepeBigotes
 Move duckduino.h to the main directory
 https://github.com/PepeBigotes/improvedduckduino
 /improvedduckduino
-</TASK>
-
-<TASK>
-!NOPROG
-Developing python-fetch.py
-https://github.com/PepeBigotes/python-stuff
-/python-stuff
 </TASK>

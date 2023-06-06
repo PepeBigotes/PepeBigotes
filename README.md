@@ -21,22 +21,22 @@ Click here & find out what I'm up to</b></h2>
 /chrome-custom-newtab</a></td>
 </tr>
 <tr>
-<td align="center">❌</td>
+<td align="center">📝</td>
 <td>Cleaning up the code, making it more readable and optimizing it</td>
 <td><a href="https://github.com/PepeBigotes/PepeBigotes">
 /PepeBigotes</a></td>
+</tr>
+<tr>
+<td align="center">📝</td>
+<td>Developing python-fetch.py</td>
+<td><a href="https://github.com/PepeBigotes/python-stuff">
+/python-stuff</a></td>
 </tr>
 <tr>
 <td align="center">❌</td>
 <td>Move duckduino.h to the main directory</td>
 <td><a href="https://github.com/PepeBigotes/improvedduckduino">
 /improvedduckduino</a></td>
-</tr>
-<tr>
-<td align="center">❌</td>
-<td>Developing python-fetch.py</td>
-<td><a href="https://github.com/PepeBigotes/python-stuff">
-/python-stuff</a></td>
 </tr>
 </table>
 <!--/TODOLIST-->
