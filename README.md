@@ -16,9 +16,9 @@ Click here & find out what I'm up to</b></h2>
 </tr>
 <tr>
 <td align="center">📝</td>
-<td>Add more links and features</td>
-<td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
-/chrome-custom-newtab</a></td>
+<td>Add requirements.txt and print ASCIIs</td>
+<td><a href="https://github.com/PepeBigotes/pepefetch">
+/pepefetch</a></td>
 </tr>
 <tr>
 <td align="center">📝</td>
@@ -28,9 +28,9 @@ Click here & find out what I'm up to</b></h2>
 </tr>
 <tr>
 <td align="center">📝</td>
-<td>Developing python-fetch.py</td>
-<td><a href="https://github.com/PepeBigotes/python-stuff">
-/python-stuff</a></td>
+<td>Add more links and features</td>
+<td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
+/chrome-custom-newtab</a></td>
 </tr>
 <tr>
 <td align="center">❌</td>

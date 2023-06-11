@@ -1,8 +1,8 @@
 <TASK>
 !INPROG
-Add more links and features
-https://github.com/PepeBigotes/chrome-custom-newtab
-/chrome-custom-newtab
+Add requirements.txt and print ASCIIs
+https://github.com/PepeBigotes/pepefetch
+/pepefetch
 </TASK>
 
 <TASK>
@@ -14,9 +14,9 @@ https://github.com/PepeBigotes/PepeBigotes
 
 <TASK>
 !INPROG
-Developing python-fetch.py
-https://github.com/PepeBigotes/python-stuff
-/python-stuff
+Add more links and features
+https://github.com/PepeBigotes/chrome-custom-newtab
+/chrome-custom-newtab
 </TASK>
 
 <TASK>
