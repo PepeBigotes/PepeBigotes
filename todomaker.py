@@ -2,13 +2,23 @@
 #I want to have my own todo-list format.
 #This script transfers that format to the markdown file.
 #Pepe's TodoList Language maybe?
+print("======TODOMAKER.py======")
 
-#=PART 0: Imports, defs and file values
+
+#=PART 0: Imports, constants and defs
+
 import time
 import inspect
 
-readme = "README.md"
-todolist = "todolist.txt"
+
+README = "README.md" #Markdown file where the table is located
+README_START_KEYWORD = "<!--TODOLIST-->"
+README_END_KEYWORD = "<!--/TODOLIST-->"
+
+TODOLIST = "todolist.txt" #Text file similar to XML containing the tasks data
+TODOLIST_START_KEYWORD = "<TASK>"
+TODOLIST_END_KEYWORD = "</TASK>"
+
 
 def get_var_name(input):
     for name, value in locals().items():
@@ -16,12 +26,11 @@ def get_var_name(input):
             return name
     return None
 
-
 def plainlist(input):
-    
     variables = inspect.currentframe().f_back.f_locals.items()
     var_name = [var_name for var_name, var_val in variables if var_val is input][0]
-    print(f"Plainlisting '{var_name}'...")
+    
+    print(f"(plainlisting '{var_name}'...)")
     cache_list = input
     input = []
     for sublist in cache_list:
@@ -32,59 +41,23 @@ def plainlist(input):
         elif isinstance(sublist, str):
             input.append(sublist)
         else:
-            print("-ERROR appending, not a list nor string")
-            
-#=PART 1: Detect and delete current TodoList from .md
-start_keyword = "<!--TODOLIST-->"
-end_keyword = "<!--/TODOLIST-->"
+            print("[ERROR] plainlist could not append, element is not a list nor string")
 
-with open(readme, "r", encoding='utf-8') as file:
-    lines = file.readlines()
 
-start_index = None
-end_index = None
+#=PART 1: Detect and store tasks data from todolist.txt
 
-for i in range(len(lines)):
-    if start_keyword in lines[i]:
-        start_index = i
-        print("Detected ", start_keyword , " at line ", start_index +1)
-    elif end_keyword in lines[i]:
-        end_index = i
-        print("Detected ", end_keyword , " at line ", end_index +1)
-        break
+start_keyword = TODOLIST_START_KEYWORD
+end_keyword = TODOLIST_END_KEYWORD
 
-if start_index is not None and end_index is not None:
-    lines_deleted = end_index - start_index -1
-    if lines_deleted <= 0:
-        print("No lines were deleted")
-    else:
-        del lines[start_index + 1 : end_index]
-        with open(readme, "w", encoding='utf-8') as file:
-            file.writelines(lines)
-        print(f"Deleted {lines_deleted} lines")
-else:
-    if start_index is not None:
-        print(f"No {end_index} in {readme}")
-    elif end_index is not None:
-        print(f"No {start_index} in {readme}")
-    else:
-        print(f"No {start_keyword} nor {end_keyword} in {readme}")
-        
-    print("Check your syntax, bozo")
 
-print()
-#=PART 2: Detect and store values from todolist.txt
-
-start_keyword = '<TASK>'
-end_keyword = '</TASK>'
 tasks = []
 task_content = []
-
 start_index = None
 end_index = None
 
-print(f"Stripping values from {todolist}...")
-with open(todolist, 'r', encoding='utf-8') as file:
+
+print(f"Stripping values from {TODOLIST}...")
+with open(TODOLIST, 'r', encoding='utf-8') as file:
     for line in file:
         if start_keyword in line:
             task_content = []
@@ -93,24 +66,28 @@ with open(todolist, 'r', encoding='utf-8') as file:
                     tasks.append(task_content)
                     break
                 task_content.append(line.strip())
-                print("Strip: ", line.strip())
+                print("└Strip: ", line.strip())
 
 if tasks:
-    print(f'The lines between {start_keyword} and {end_keyword} are:')
+    print(f'The task contents are:')
     for line in tasks:
-        print(line)
+        print(f"└{line}")
 else:
     if start_index is not None:
-        print(f"No {end_keyword} in {todolist}")
+        print(f"[ERROR] No {end_keyword} in {TODOLIST}")
     elif end_keyword is not None:
-        print(f"No {start_keyword} in {todolist}")
+        print(f"[ERROR] No {start_keyword} in {TODOLIST}")
     else:
-        print(f"No {start_keyword} nor {end_keyword} in {todolist}")
-        
-    print("Check your syntax, bozo")
+        print(f"[ERROR] No {start_keyword} nor {end_keyword} in {TODOLIST}")
+           
+    print("   Check your syntax, bozo")
+    exit()
     
 print()
-#=PART 3: Transform values to markdown format
+
+
+#=PART 2: Transform data to markdown format
+
 if len(tasks) > 0:
     print(f"Transforming {len(tasks)} tasks...")
     for task in range(0, len(tasks)):
@@ -127,12 +104,59 @@ if len(tasks) > 0:
         print(tasks[task][3])
         tasks[task][3] = f'{tasks[task][3]}</a></td>\n</tr>\n'
         print()
-        
 else:
-    print(f"No tasks detected in {todolist}")
+    print(f"[ERROR] No tasks detected in {TODOLIST}")
+    exit()
 
 print()
-#=PART 4: Write new TodoList to .md
+
+
+#=PART 3: Detect and delete current TodoList from .md
+
+start_keyword = README_START_KEYWORD
+end_keyword = README_END_KEYWORD
+
+
+with open(README, "r", encoding='utf-8') as file:
+    lines = file.readlines()
+
+
+start_index = None
+end_index = None
+
+for i in range(len(lines)):
+    if start_keyword in lines[i]:
+        start_index = i
+        print("Detected ", start_keyword , " at line ", start_index +1)
+    elif end_keyword in lines[i]:
+        end_index = i
+        print("Detected ", end_keyword , " at line ", end_index +1)
+        break
+
+
+if start_index and end_index:
+    lines_deleted = end_index - start_index -1
+    if lines_deleted <= 0:
+        print("[ERROR] No lines were deleted")
+    else:
+        del lines[start_index + 1 : end_index]
+        with open(README, "w", encoding='utf-8') as file:
+            file.writelines(lines)
+        print(f"Deleted {lines_deleted} lines")
+else:
+    if start_index:
+        print(f"[ERROR] No {end_keyword} in {README}")
+    elif end_index:
+        print(f"[ERROR] No {start_keyword} in {README}")
+    else:
+        print(f"[ERROR] No {start_keyword} nor {end_keyword} in {README}")
+        
+    print("   Check your syntax, bozo")
+
+print()
+
+
+#=PART 4: Write new TodoList table to .md
 
 prefix = [ \
     "<table align='center'>\n", \
@@ -146,25 +170,16 @@ sufix = ["</table>\n"]
 
 
 plainlist(tasks)
-
 final_table = prefix + tasks + sufix
+
 plainlist(final_table)
-
-start_index = -1
-for i, line in enumerate(lines):
-    if "<!--TODOLIST-->" in line:
-        start_index = i
-        print(f"START INDEX: {start_index}")
-        break
-
-if start_index == -1:
-    print("ERROR: no TODOLIST detected in lines (readme.md)")
-
 lines[start_index + 1 : start_index + 1] = final_table
 
 plainlist(lines)
 
-with open(readme, 'w', encoding='utf-8') as file:
+
+with open(README, 'w', encoding='utf-8') as file:
+    print("Writing contents to markdown file...")
     for line in lines:
         if isinstance(line , list):
             for i in line:
@@ -172,4 +187,6 @@ with open(readme, 'w', encoding='utf-8') as file:
         else:   
             file.write(line)
 
-print("SCRIPT OVER!")
+
+print()
+print("===TODOMAKER.PY OVER!===")
