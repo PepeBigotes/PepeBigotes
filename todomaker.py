@@ -26,23 +26,6 @@ def get_var_name(input):
             return name
     return None
 
-def plainlist(input):
-    variables = inspect.currentframe().f_back.f_locals.items()
-    var_name = [var_name for var_name, var_val in variables if var_val is input][0]
-    
-    print(f"(plainlisting '{var_name}'...)")
-    cache_list = input
-    input = []
-    for sublist in cache_list:
-        if isinstance(sublist, list):
-            for string in sublist:
-                if isinstance(string, str):
-                    input.append(string)
-        elif isinstance(sublist, str):
-            input.append(sublist)
-        else:
-            print("[ERROR] plainlist could not append, element is not a list nor string")
-
 
 #=PART 1: Detect and store tasks data from todolist.txt
 
@@ -169,13 +152,8 @@ prefix = [ \
 sufix = ["</table>\n"]
 
 
-plainlist(tasks)
 final_table = prefix + tasks + sufix
-
-plainlist(final_table)
 lines[start_index + 1 : start_index + 1] = final_table
-
-plainlist(lines)
 
 
 with open(README, 'w', encoding='utf-8') as file:
