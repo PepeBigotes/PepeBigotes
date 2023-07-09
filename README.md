@@ -1,6 +1,6 @@
-<img src="images/impepebigotes-cropped.svg" align="center"/>
 <div align=center>
-<img src="images/penguin.gif" width=40% alt="Penguin from the game 'Club Penguin' hittin some moves"/>
+<img src="images/impepebigotes-cropped.svg" align="center" width="75%"/>
+<img src="images/penguin.gif" width=25% alt="Penguin from the game 'Club Penguin' hittin some moves"/>
 </div>
 
 <div align="center">
