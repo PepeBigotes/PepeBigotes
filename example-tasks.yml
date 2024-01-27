@@ -1,0 +1,20 @@
+#You can leave comments using '#'
+Very cool ToDo format:
+  prog: 'done'
+  repo: '/PepeBigotes/PepeBigotes'
+
+
+Do cool stuff:
+  prog: 'started'
+  repo: 'user/cool-stuff'
+
+
+test1
+
+Do more cool stuff:
+  prog: 'not-started'
+  repo: 'user/cool-stuff'
+
+test2
+
+test3

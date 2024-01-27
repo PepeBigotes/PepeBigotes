@@ -8,37 +8,18 @@
 Click here & find out what I'm up to</b></h2>
 </summary>
 <!--TODOLIST-->
-<table align='center'>
-<tr>
-<th><b>Progress</b></th>
-<th><b>Task</b></th>
-<th><b>Repo</b></th>
-</tr>
-<tr>
-<td align="center">📝</td>
-<td>Add requirements.txt and print ASCIIs</td>
-<td><a href="https://github.com/PepeBigotes/pepefetch">
-/pepefetch</a></td>
-</tr>
-<tr>
-<td align="center">📝</td>
-<td>Cleaning up the code, making it more readable and optimizing it</td>
-<td><a href="https://github.com/PepeBigotes/PepeBigotes">
-/PepeBigotes</a></td>
-</tr>
-<tr>
-<td align="center">📝</td>
-<td>Add more links and features</td>
-<td><a href="https://github.com/PepeBigotes/chrome-custom-newtab">
-/chrome-custom-newtab</a></td>
-</tr>
-<tr>
-<td align="center">❌</td>
-<td>Move duckduino.h to the main directory</td>
-<td><a href="https://github.com/PepeBigotes/improvedduckduino">
-/improvedduckduino</a></td>
-</tr>
-</table>
+  <table align='center'>
+    <tr>
+      <th><b>Progress</b></th>
+      <th><b>Task</b></th>
+      <th><b>Repo</b></th>
+    </tr>
+    <tr>
+      <td align='center'>✔️</td>
+      <td>Rewrite todomaker.py</td>
+      <td><a href='https://github.com/PepeBigotes/PepeBigotes'>/PepeBigotes/PepeBigotes</a></td>
+    </tr>
+  </table>
 <!--/TODOLIST-->
 </details>
 <p></p>
