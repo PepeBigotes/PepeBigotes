@@ -1,6 +1,6 @@
 <div align=center>
-<img src="images/impepebigotes-cropped.svg" align="center" width="75%"/>
-<img src="images/penguin.gif" width=25% alt="Penguin from the game 'Club Penguin' hittin some moves"/>
+<img src="images/impepebigotes-cropped.svg" width=75%/>
+<img src="images/penguin.gif" width=25%/>
 </div>
 
 <div align="center">
@@ -24,7 +24,7 @@ Click here & find out what I'm up to</b></h2>
 </details>
 <p></p>
 <div align="center">
-<img alt="Visitor count" src="https://profile-counter.glitch.me/PepeBigotes/count.svg"/>
+  <img src="https://profile-counter.glitch.me/PepeBigotes/count.svg" alt="Visitor count"/>
 </div>
 </div>
 
